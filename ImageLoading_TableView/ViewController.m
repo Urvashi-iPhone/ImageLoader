@@ -2,7 +2,7 @@
 //  ViewController.m
 //  ImageLoading_TableView
 //
-//  Created by Tecksky Techonologies on 12/30/16.
+//  Created by Urvashi Lathiya on 12/30/16.
 //  Copyright © 2016 Tecksky Technologies. All rights reserved.
 //
 
