@@ -1,0 +1,15 @@
+PODS:
+  - Diskcached (0.1.1)
+  - ImageLoader (0.1.9):
+    - Diskcached (~> 0.1.1)
+
+DEPENDENCIES:
+  - ImageLoader (~> 0.1.9)
+
+SPEC CHECKSUMS:
+  Diskcached: b4ff33215e66753ccb8067738904e52077e561ad
+  ImageLoader: b38a9eac01e5c9665e5a1c21b9466a7479e89cb8
+
+PODFILE CHECKSUM: 9bf7034bc7ea62870612b3abd3c836c527a51ec2
+
+COCOAPODS: 1.0.1

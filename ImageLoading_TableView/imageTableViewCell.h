@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  imageTableViewCell.h
 //  ImageLoading_TableView
 //
 //  Created by Tecksky Techonologies on 12/30/16.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
-@property (weak, nonatomic) IBOutlet UITableView *table;
-
+@interface imageTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *img;
 
 @end
-

@@ -1,0 +1,9 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘8.2’
+
+target ‘ImageLoading_TableView’ do
+pod 'ImageLoader', '~> 0.1.9'
+
+
+end

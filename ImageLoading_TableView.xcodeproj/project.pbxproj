@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00EBCEE283269D0067E6001 /* libPods-ImageLoading_TableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF40B98DDCE08FB8D96B268 /* libPods-ImageLoading_TableView.a */; };
 		AD4715031E1616E600C09D50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4715021E1616E600C09D50 /* main.m */; };
 		AD4715061E1616E600C09D50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4715051E1616E600C09D50 /* AppDelegate.m */; };
 		AD4715091E1616E600C09D50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4715081E1616E600C09D50 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		AD4715111E1616E600C09D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD47150F1E1616E600C09D50 /* LaunchScreen.storyboard */; };
 		AD47151C1E1616E700C09D50 /* ImageLoading_TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD47151B1E1616E700C09D50 /* ImageLoading_TableViewTests.m */; };
 		AD4715271E1616E700C09D50 /* ImageLoading_TableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4715261E1616E700C09D50 /* ImageLoading_TableViewUITests.m */; };
+		AD4715361E161C7600C09D50 /* imageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4715351E161C7600C09D50 /* imageTableViewCell.m */; };
+		AD4715381E161D8D00C09D50 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4715371E161D8D00C09D50 /* Icon-App-20x20@2x.png */; };
+		AD47153A1E161FE200C09D50 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4715391E161FE200C09D50 /* placeholder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21BA94EBE761FC137BE0CF08 /* Pods-ImageLoading_TableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageLoading_TableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageLoading_TableView/Pods-ImageLoading_TableView.debug.xcconfig"; sourceTree = "<group>"; };
+		5CF40B98DDCE08FB8D96B268 /* libPods-ImageLoading_TableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageLoading_TableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4714FE1E1616E600C09D50 /* ImageLoading_TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageLoading_TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4715021E1616E600C09D50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD4715041E1616E600C09D50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,11 @@
 		AD4715221E1616E700C09D50 /* ImageLoading_TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageLoading_TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4715261E1616E700C09D50 /* ImageLoading_TableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageLoading_TableViewUITests.m; sourceTree = "<group>"; };
 		AD4715281E1616E700C09D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4715341E161C7600C09D50 /* imageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageTableViewCell.h; sourceTree = "<group>"; };
+		AD4715351E161C7600C09D50 /* imageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageTableViewCell.m; sourceTree = "<group>"; };
+		AD4715371E161D8D00C09D50 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		AD4715391E161FE200C09D50 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		AE87165F56F5C0847DF04E14 /* Pods-ImageLoading_TableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageLoading_TableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageLoading_TableView/Pods-ImageLoading_TableView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00EBCEE283269D0067E6001 /* libPods-ImageLoading_TableView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		843E593D05767E28E433FF0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21BA94EBE761FC137BE0CF08 /* Pods-ImageLoading_TableView.debug.xcconfig */,
+				AE87165F56F5C0847DF04E14 /* Pods-ImageLoading_TableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		918751790AFAA8AFD62D6A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF40B98DDCE08FB8D96B268 /* libPods-ImageLoading_TableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD4714F51E1616E600C09D50 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				AD47151A1E1616E700C09D50 /* ImageLoading_TableViewTests */,
 				AD4715251E1616E700C09D50 /* ImageLoading_TableViewUITests */,
 				AD4714FF1E1616E600C09D50 /* Products */,
+				843E593D05767E28E433FF0F /* Pods */,
+				918751790AFAA8AFD62D6A60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +133,12 @@
 			isa = PBXGroup;
 			children = (
 				AD4715041E1616E600C09D50 /* AppDelegate.h */,
+				AD4715391E161FE200C09D50 /* placeholder.png */,
+				AD4715371E161D8D00C09D50 /* Icon-App-20x20@2x.png */,
 				AD4715051E1616E600C09D50 /* AppDelegate.m */,
 				AD4715071E1616E600C09D50 /* ViewController.h */,
+				AD4715341E161C7600C09D50 /* imageTableViewCell.h */,
+				AD4715351E161C7600C09D50 /* imageTableViewCell.m */,
 				AD4715081E1616E600C09D50 /* ViewController.m */,
 				AD47150A1E1616E600C09D50 /* Main.storyboard */,
 				AD47150D1E1616E600C09D50 /* Assets.xcassets */,
@@ -147,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD47152B1E1616E700C09D50 /* Build configuration list for PBXNativeTarget "ImageLoading_TableView" */;
 			buildPhases = (
+				53113BF67BE40F4DD7FC9983 /* [CP] Check Pods Manifest.lock */,
 				AD4714FA1E1616E600C09D50 /* Sources */,
 				AD4714FB1E1616E600C09D50 /* Frameworks */,
 				AD4714FC1E1616E600C09D50 /* Resources */,
+				EA5B346E4F2D2D3EBF95B759 /* [CP] Embed Pods Frameworks */,
+				26633E43BCB3F337AD6D995F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +286,8 @@
 			files = (
 				AD4715111E1616E600C09D50 /* LaunchScreen.storyboard in Resources */,
 				AD47150E1E1616E600C09D50 /* Assets.xcassets in Resources */,
+				AD4715381E161D8D00C09D50 /* Icon-App-20x20@2x.png in Resources */,
+				AD47153A1E161FE200C09D50 /* placeholder.png in Resources */,
 				AD47150C1E1616E600C09D50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,12 +308,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26633E43BCB3F337AD6D995F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageLoading_TableView/Pods-ImageLoading_TableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53113BF67BE40F4DD7FC9983 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5B346E4F2D2D3EBF95B759 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageLoading_TableView/Pods-ImageLoading_TableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD4714FA1E1616E600C09D50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AD4715091E1616E600C09D50 /* ViewController.m in Sources */,
+				AD4715361E161C7600C09D50 /* imageTableViewCell.m in Sources */,
 				AD4715061E1616E600C09D50 /* AppDelegate.m in Sources */,
 				AD4715031E1616E600C09D50 /* main.m in Sources */,
 			);
@@ -422,6 +511,7 @@
 		};
 		AD47152C1E1616E700C09D50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BA94EBE761FC137BE0CF08 /* Pods-ImageLoading_TableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageLoading_TableView/Info.plist;
@@ -433,6 +523,7 @@
 		};
 		AD47152D1E1616E700C09D50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE87165F56F5C0847DF04E14 /* Pods-ImageLoading_TableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageLoading_TableView/Info.plist;
@@ -507,6 +598,7 @@
 				AD47152D1E1616E700C09D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD47152E1E1616E700C09D50 /* Build configuration list for PBXNativeTarget "ImageLoading_TableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +607,7 @@
 				AD4715301E1616E700C09D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD4715311E1616E700C09D50 /* Build configuration list for PBXNativeTarget "ImageLoading_TableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +616,7 @@
 				AD4715331E1616E700C09D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
